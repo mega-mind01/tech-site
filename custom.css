@@ -3,11 +3,13 @@
 }
 
 body{
-    background-color: wheat;
+    background-color: rgb(90, 88, 88);
+    margin: 0;
 }
 
 body nav{
     background-color: transparent;
+    margin: 0 auto;
 }
 
 .top-banner{
@@ -19,6 +21,10 @@ body nav{
 }
 
 .banner{
+    color: #eee;
+}
+
+.info .top{
     color: #eee;
 }
 
@@ -56,10 +62,44 @@ body nav{
     padding: 5px;
 }
 
+.form{
+    background-image: url(images/cont1.png);
+    background-size: cover;
+    background-position: center;
+    color: #eee;
+}
+
+.form input, label, textarea{
+    display: block; 
+    width: 100%;
+    margin-bottom: 5px; 
+    border: none; 
+    outline: none; 
+    color: #eee
+}
+
+.form input{
+    height: 35px; 
+    color: #46467a; 
+} 
+
+.form textarea{
+    resize: none;
+    color: #062743;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+/* .form .cont-img{
+    background-image: url(images/contact\ us.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+
 .overlay{
     background-color: rgba(21, 20, 20, 0.8);
     min-height: 30px;
-    width: 100%;
+    min-width: 1%;
     margin: 0;
 }
 
